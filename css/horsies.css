@@ -1,0 +1,234 @@
+﻿.Horse
+{
+    -webkit-transition: 3s linear;
+    margin-left: 25%;
+	margin-top: 0%;
+}
+.First
+{
+    margin-left: 83%;
+}
+.Second
+{
+    margin-left: 76%;
+}
+.Third
+{
+    margin-left: 69%;
+}
+.Fourth
+{
+    margin-left: 62%;
+}
+.Fifth
+{
+    margin-left: 55%;
+}
+.Sixth
+{
+    margin-left: 48%;
+}
+.Seventh
+{
+    margin-left: 41%;
+}
+.Eighth
+{
+    margin-left: 34%;
+}
+.Ninth
+{
+    margin-left: 27%;
+}
+.Tenth
+{
+    margin-left: 20%;
+}
+.dollars:before
+{
+    content: '$';
+}
+.dollars
+{    
+    font-size:40px;
+    color:Black;
+    font-weight:bolder; 
+    font-family:Arial; 
+}
+
+.place
+{    
+    font-size:18px;
+    color:Blue;
+    font-weight:bolder; 
+    font-family:Comic Sans MS;  
+}
+
+/* Flash class and keyframe animation */
+.flashit{
+  color:Green;
+	-webkit-animation: flash linear 1s infinite;
+	animation: flash linear 1s infinite;
+	font-family:Comic Sans MS;
+  
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+
+.PreK
+{
+    width: 100%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='80px' width='100%'><text x='5%' y='40' fill='black' font-size='20' font-family='Comic Sans MS'>Pre-Kindergarten</text></svg>");
+}
+
+.Kindergarten
+{
+    width: 100%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='80px' width='100%'><text x='5%' y='40' fill='black' font-size='20' font-family='Comic Sans MS'>Kindergarten</text></svg>");
+}
+.FirstGrade
+{
+    width: 100%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='80px' width='100%'><text x='5%' y='40' fill='black' font-size='20' font-family='Comic Sans MS'>First Grade</text></svg>");
+}
+.SecondGrade
+{
+    width: 100%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='80px' width='100%'><text x='5%' y='40' fill='black' font-size='20' font-family='Comic Sans MS'>Second Grade</text></svg>");
+}
+.ThirdGrade
+{   
+    width: 100%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='80px' width='100%'><text x='5%' y='40' fill='black' font-size='20' font-family='Comic Sans MS'>Third Grade</text></svg>");
+}
+.FourthGrade
+{
+    width: 100%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='80px' width='100%'><text x='5%' y='40' fill='black' font-size='20' font-family='Comic Sans MS'>Fourth Grade</text></svg>");
+}
+.FifthGrade
+{
+    width: 100%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='80px' width='100%'><text x='5%' y='40' fill='black' font-size='20' font-family='Comic Sans MS'>Fifth Grade</text></svg>");
+}
+.SixthGrade
+{
+    width: 100%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='80px' width='100%'><text x='5%' y='40' fill='black' font-size='20' font-family='Comic Sans MS'>Sixth Grade</text></svg>");
+}
+.SeventhGrade
+{
+    width: 100%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='80px' width='100%'><text x='5%' y='40' fill='black' font-size='20' font-family='Comic Sans MS'>Seventh Grade</text></svg>");
+}
+.EigthGrade
+{
+    width: 100%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='80px' width='100%'><text x='5%' y='40' fill='black' font-size='20' font-family='Comic Sans MS'>Eighth Grade</text></svg>");
+}
+
+.input_styled
+{
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 5px 5px;
+    border: 1px solid #b7b7b7;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 18px/normal Tahoma, Geneva, sans-serif;
+    color: rgba(0,142,198,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252,252,252,1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    width: 40px;
+}
+.textStyle
+{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 20px/1 Tahoma, Geneva, sans-serif;
+    color: #0b344f;
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4);
+    box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+.btn
+{
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+.btn:hover
+{
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+@keyframes marquee {
+    0%   { text-indent: 80% }
+    100% { text-indent: -80px }
+}
+
+@-webkit-keyframes marquee {
+    0%   { text-indent: 80% }
+    100% { text-indent: -80px }
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 17s linear infinite;
+    -webkit-animation: marquee 17s linear infinite;
+    font-family:Arial;
+}
+
+.marquee:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+
+
